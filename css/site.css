@@ -1,12 +1,10 @@
 
 :root {
-  font-family: "News Cycle", sans-serif;
-  font-weight: 400;
   padding: 20px;
   --main-color: #fff
   --link-box-colors: #1a73e8;
   --text-colors: #68273b;
-  --h-colors:#da6d55;
+  --h-colors:#a2513f;
   --hover-text-color: #fff;
   --hover-bkgrd-colors: #5580da;
   --about: #55da6d;
@@ -28,6 +26,8 @@ html, main, body {
   display: grid;
 }
 
+
+
 h1 {
   font-size: 48px;
   color: var(--h-colors);
@@ -46,9 +46,15 @@ font-family: 'Manrope', sans-serif;
 
 }
 
+
 h3 {
   font-size: 20px;
   margin: 10px;
+}
+
+#vini-gora-logo {
+  width: 100px;
+  border-radius: 90%;
 }
 
 i {
@@ -57,8 +63,8 @@ i {
 
 #topBtn {
   font-family: var(--ff-heading);
-  display: none;
   font-family: 'Manrope', sans-serif;
+  display: none;
   position: fixed;
   font-size: 30px;
   bottom: 20px;
