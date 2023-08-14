@@ -28,8 +28,6 @@ html, main, body {
   display: grid;
 }
 
-
-
 h1 {
   font-size: 48px;
   color: var(--h-colors);
@@ -48,15 +46,9 @@ font-family: 'Manrope', sans-serif;
 
 }
 
-
 h3 {
   font-size: 20px;
   margin: 10px;
-}
-
-#vini-gora-logo {
-  width: 100px;
-  border-radius: 90%;
 }
 
 i {
@@ -66,6 +58,7 @@ i {
 #topBtn {
   font-family: var(--ff-heading);
   display: none;
+  font-family: 'Manrope', sans-serif;
   position: fixed;
   font-size: 30px;
   bottom: 20px;
