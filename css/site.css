@@ -113,6 +113,12 @@ i {
   text-align: center;
 }
 
+.btn-email:hover {
+  background-color: var(--hover-bkgrd-colors);
+  text-decoration: none;
+  color: var(--hover-text-color);
+}
+
 
 .btn:hover {
   background-color: var(--hover-bkgrd-colors);
