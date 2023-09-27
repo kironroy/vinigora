@@ -22,11 +22,15 @@
   --text-colors: #68273b;
   --h-colors:#a2513f;
   --hover-text-color: #fff;
-  --hover-bkgrd-colors: #5580da;
+  --drk-h-tag-color-me: #5580da;
   --about: #cbdac6ff;
   --btn-color:#55c2da;
   --btn-email-color:#51bed6;
   --box-shdw: #808080cc;
+  --drk-main-color:#2d333b;
+  --drk-h-tag-colors:#f8f8c2;
+  --drk-hover-btn: #25251c;
+
 }
 
 html, main, body {
@@ -116,8 +120,7 @@ i {
 
 .btn-email {
   display: block;
-    font-family: 'Manrope', sans-serif;
-  font-weight: 600px;
+  font-family: 'Manrope', sans-serif;
   font-size: 22px;
   background-color: var(--btn-email-color);
   border-radius: 40px;
@@ -130,20 +133,20 @@ i {
 }
 
 .btn-email:hover {
-  background-color: var(--hover-bkgrd-colors);
+  background-color: var(--drk-h-tag-colors);
   text-decoration: none;
   color: var(--hover-text-color);
 }
 
 
 .btn:hover {
-  background-color: var(--hover-bkgrd-colors);
+  background-color: var(--drk-h-tag-colors);
   text-decoration: none;
   color: var(--hover-text-color);
 }
 
 .btn-first:hover {
-  background-color: var(--hover-bkgrd-colors);
+  background-color: var(--drk-h-tag-colors);
   text-decoration: none;
   color: var(--hover-text-color);
 }
@@ -162,7 +165,7 @@ i {
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
   font-size: 22px;
-   background: var(--about);
+  background: var(--about);
   border-radius: 40px;
   padding: 20px;
   color: var(--text-colors);
@@ -172,8 +175,7 @@ i {
 }
 
 #myaccordion label:hover {
-  background-color: var(--hover-bkgrd-colors);
-  background-color: var(--hover-bkgrd-colors);
+  background-color: var(--drk-h-tag-colors);
   color: var(--hover-text-color);
 }
 
@@ -217,6 +219,71 @@ i {
     width: 100%;
     height: 100%;
    border-radius: 24px !important;
+
+}
+
+@media screen and (prefers-color-scheme: dark) { 
+    html, main, body {
+    height: 100%;
+    background-color: var(--drk-main-color);
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    color: var(--drk-h-tag-colors);
+  }
+
+  h2 {
+    color: var(--hover-text-color);
+  }
+
+.btn, .btn-email {
+  background-color: var(--drk-h-tag-colors);
+  text-decoration: none;
+  color: var(--text-colors);
+}
+
+.btn-email:hover {
+    background-color: var(--drk-hover-btn);
+    border: solid 2px var(--drk-h-tag-colors);
+}
+
+  
+.btn:hover {
+  background-color: var(--drk-hover-btn);
+  text-decoration: none;
+  color: var(--hover-text-color);
+  border: solid 2px var(--drk-h-tag-colors);
+}
+
+.me-p {
+  color: var(--hover-text-color);
+}
+
+#myaccordion label:hover {
+  background-color: var(--drk-hover-btn);
+  color: var(--hover-text-color);
+  border: solid 2px var(--hover-text-color);
+}
+
+#myaccordion label {
+  display: block;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  background-color: var(--drk-h-tag-color-me);
+  border-radius: 40px;
+  padding: 20px;
+  color: var(--hover-text-color);
+  text-decoration: none;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+
 
 }
 
