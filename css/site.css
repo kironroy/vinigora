@@ -22,15 +22,21 @@
   --text-colors: #68273b;
   --h-colors:#a2513f;
   --hover-text-color: blue;
+  --hover-color:#1a73e8;
   --drk-hover-color: #f9f9f9;
   --drk-h-tag-color-me: #5580da;
   --about: #cbdac6ff;
   --btn-color:#55c2da;
+  --btn-social:#69d8f1;
   --btn-email-color:#51bed6;
   --box-shdw: #808080cc;
+  --social: #f9f7f7;
   --drk-main-color:#2d333b;
   --drk-h-tag-colors:#f8f8c2;
   --drk-hover-btn: #25251c;
+  --drk-social: #0c0c0c;
+  --drk-three-btns: #6785a7;
+  --drk-social-btns: #687789;
 
 }
 
@@ -131,7 +137,20 @@ color: var(--drk-hover-color);
   text-decoration: none;
   margin-top: 20px;
   margin-bottom: 20px;
-/* box-shadow: 0 8px 9px -9px var(--box-shdw); */
+  text-align: center;
+}
+
+.btn-social {
+  display: block;
+  font-family: 'Manrope', sans-serif;
+  font-size: 22px;
+  background-color: var(--btn-social);
+  border-radius: 40px;
+  padding: 20px;
+  color: var(--text-colors);
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -149,15 +168,14 @@ color: var(--drk-hover-color);
   text-align: center;
 }
 
-.btn-email:hover {
-  background-color: var(--drk-h-tag-colors);
+.btn:hover {
+  background-color: var(--hover-color);
   text-decoration: none;
 color: var(--drk-hover-color);
 }
 
-
-.btn:hover {
-  background-color: var(--drk-h-tag-colors);
+.btn-social:hover {
+background-color: var(--hover-color);
   text-decoration: none;
 color: var(--drk-hover-color);
 }
@@ -290,6 +308,28 @@ color: var(--drk-hover-color);
 
 }
 
+.extra-space {
+  padding-bottom: 40px;
+}
+
+.img-space {
+  padding-bottom: 40px;
+}
+
+.first-img-space {
+  padding-bottom: 40px;
+}
+
+.social {
+  background-color: var(--social);
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
 @media screen and (prefers-color-scheme: dark) { 
     html, main, body {
     height: 100%;
@@ -299,6 +339,16 @@ color: var(--drk-hover-color);
     padding: 0;
   }
 
+  .social {
+  background-color: var(--drk-social);
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
   h1 {
     color: var(--drk-h-tag-colors);
   }
@@ -307,41 +357,84 @@ color: var(--drk-hover-color);
   color: var(--drk-hover-color);
   }
 
-.btn, .btn-email {
-  background-color: var(--drk-h-tag-colors);
+.btn {
+  background-color: var(--drk-social-btns);
   text-decoration: none;
   color: var(--text-colors);
 }
 
-.btn-email:hover {
+.btn-social {
+    background-color: var(--drk-social-btns);
+    color: var(--drk-hover-color);
+}
+
+
+.btn-social:hover {
     background-color: var(--drk-hover-btn);
     border: solid 2px var(--drk-h-tag-colors);
 }
 
   
 .btn:hover {
-  background-color: var(--drk-hover-btn);
-  text-decoration: none;
-  color: var(--drk-hover-color);
-  border: solid 2px var(--drk-h-tag-colors);
+    background-color: var(--drk-hover-btn);
+    border: solid 2px var(--drk-h-tag-colors);
 }
 
 .me-p {
 color: var(--drk-hover-color);
 }
 
-.myaccordion .mygallery .mycontact label:hover {
+.myaccordion label:hover {
   background-color: var(--drk-hover-btn);
   color: var(--drk-hover-color);
   border: solid 2px var(--hover-text-color);
 }
 
-.myaccordion .mygallery .mycontact  label {
+.mygallery label:hover {
+  background-color: var(--drk-hover-btn);
+  color: var(--drk-hover-color);
+  border: solid 2px var(--hover-text-color);
+}
+.mycontact label:hover {
+  background-color: var(--drk-hover-btn);
+  color: var(--drk-hover-color);
+  border: solid 2px var(--hover-text-color);
+}
+
+.myaccordion label {
   display: block;
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
   font-size: 22px;
-  background-color: var(--drk-h-tag-color-me);
+  background-color: var(--drk-three-btns);
+  border-radius: 40px;
+  padding: 20px;
+  color: var(--drk-hover-color);
+  text-decoration: none;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.mygallery label {
+  display: block;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  background-color: var(--drk-three-btns);
+  border-radius: 40px;
+  padding: 20px;
+  color: var(--drk-hover-color);
+  text-decoration: none;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.mycontact label {
+  display: block;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  background-color: var(--drk-three-btns);
   border-radius: 40px;
   padding: 20px;
   color: var(--drk-hover-color);
