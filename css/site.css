@@ -312,10 +312,6 @@ color: var(--drk-hover-color);
   padding-bottom: 40px;
 }
 
-.img-space {
-  padding-bottom: 40px;
-}
-
 .first-img-space {
   padding-bottom: 40px;
 }
@@ -324,10 +320,11 @@ color: var(--drk-hover-color);
   background-color: var(--social);
   padding-right: 10px;
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
   border-radius: 40px;
-  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 @media screen and (prefers-color-scheme: dark) { 
@@ -341,12 +338,6 @@ color: var(--drk-hover-color);
 
   .social {
   background-color: var(--drk-social);
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 40px;
-  margin-top: 10px;
 }
 
   h1 {
