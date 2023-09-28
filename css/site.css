@@ -47,7 +47,17 @@ html, main, body {
   display: grid;
 }
 
+.phone{ 
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+}
 
+a {
+   font-family: 'Manrope', sans-serif;
+   text-decoration: none;
+   padding: 10px;
+   font-size: 22px;
+}
 
 h1 {
   font-size: 48px;
@@ -62,8 +72,8 @@ h2 {
   font-size: 24px;
   margin-bottom: 20px;
   color: var(--h-colors);
-font-family: 'Manrope', sans-serif;
-    text-align: center;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
 
 }
 
@@ -167,7 +177,7 @@ color: var(--drk-hover-color);
   line-height: 1.5;
 }
 
-#myaccordion label {
+.myaccordion label {
   display: block;
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
@@ -181,18 +191,17 @@ color: var(--drk-hover-color);
   text-align: center;
 }
 
-#myaccordion label:hover {
+.myaccordion label:hover {
   background-color: #1a73e8;
 color: var(--drk-hover-color);
 }
 
-#myaccordion input:checked+label+.content {
+.myaccordion input:checked+label+.content {
   display: block;
   -moz-animation: fadeIn 0.5s ease-out;
   -o-animation: fadeIn 0.5s ease-out;
   animation: fadeIn 0.5s ease-out;
 }
-
 
 .hidecontent {
   display: none;
@@ -202,6 +211,58 @@ color: var(--drk-hover-color);
   background: var(--creme-color);
   padding: 10px 25px;
   margin: -1 0 0 0;
+}
+
+.mygallery label {
+  display: block;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  background: var(--btn-email-color);
+  border-radius: 40px;
+  padding: 20px;
+  color: var(--text-colors);
+  text-decoration: none;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.mygallery label:hover {
+  background-color: #1a73e8;
+  color: var(--drk-hover-color);
+}
+
+.mygallery input:checked+label+.content {
+  display: block;
+  -moz-animation: fadeIn 0.5s ease-out;
+  -o-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.mycontact label {
+  display: block;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  background: var(--btn-email-color);
+  border-radius: 40px;
+  padding: 20px;
+  color: var(--text-colors);
+  text-decoration: none;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.mycontact label:hover {
+  background-color: #1a73e8;
+  color: var(--drk-hover-color);
+}
+
+.mycontact input:checked+label+.content {
+  display: block;
+  -moz-animation: fadeIn 0.5s ease-out;
+  -o-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
 }
 
 
@@ -269,13 +330,13 @@ color: var(--drk-hover-color);
 color: var(--drk-hover-color);
 }
 
-#myaccordion label:hover {
+.myaccordion .mygallery .mycontact label:hover {
   background-color: var(--drk-hover-btn);
   color: var(--drk-hover-color);
   border: solid 2px var(--hover-text-color);
 }
 
-#myaccordion label {
+.myaccordion .mygallery .mycontact  label {
   display: block;
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
@@ -289,7 +350,13 @@ color: var(--drk-hover-color);
   text-align: center;
 }
 
+a {
+  color: var(--drk-h-tag-colors);
+}
 
+.phone{ 
+    color: var(--drk-h-tag-colors);
+}
 
 
 }
