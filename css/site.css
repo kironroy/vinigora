@@ -176,7 +176,7 @@ color: var(--drk-hover-color);
 }
 
 #myaccordion label:hover {
-  background-color: var(--drk-h-tag-colors);
+  background-color: #1a73e8;
 color: var(--drk-hover-color);
 }
 
