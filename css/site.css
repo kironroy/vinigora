@@ -1,32 +1,17 @@
-/* manrope-600 - latin */
 
 @font-face {
     font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
     src: url('../fonts/manrope-v14-latin-600.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* playfair-display-700 - latin */
-
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/playfair-display-v36-latin-700.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 :root {
     padding: 20px;
     --main-color: #fff --link-box-colors: #1a73e8;
     --text-colors: #222;
-    --h-colors: #a2513f;
+    --h-text-colors:#2f2f2f;
     --hover-text-color: blue;
     --hover-color: #1a73e8;
     --drk-hover-color: #f9f9f9;
@@ -36,7 +21,7 @@
     --btn-social: #69d8f1;
     --btn-email-color: #51bed6;
     --box-shdw: #808080cc;
-    --social: #f9f7f7;
+    --social: #fcf0f3;
     --drk-main-color: #2d333b;
     --drk-h-tag-colors: #f8f8c2;
     --drk-hover-btn: #25251c;
@@ -67,19 +52,22 @@ a {
 
 h1 {
     font-size: 48px;
-    color: var(--h-colors);
-    font-family: 'Playfair Display', serif;
+    color: var(--h-text-colors);
+    font-family: 'Manrope', sans-serif;
     text-align: center;
     margin-top: 10px;
     margin-bottom: -10px;
+    text-transform: capitalize;
 }
 
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: var(--h-colors);
+    color: var(--h-text-colors);
     font-family: 'Manrope', sans-serif;
     text-align: center;
+    text-transform: capitalize;
+
 }
 
 h3 {
