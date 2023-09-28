@@ -76,8 +76,8 @@ h3 {
 .responsive {
   width: 100%;
   height: auto;
-  padding: 15px;
-  border-radius: 40px;
+  border-radius: 20px;
+  padding: auto;
 }
 
 #vini-gora-logo {
