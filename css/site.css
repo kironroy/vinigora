@@ -1,303 +1,307 @@
 /* manrope-600 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/manrope-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v14-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* playfair-display-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/playfair-display-v36-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-:root {
-  padding: 20px;
-  --main-color: #fff
-  --link-box-colors: #1a73e8;
-  --text-colors: #68273b;
-  --h-colors:#a2513f;
-  --hover-text-color: blue;
-  --hover-color:#1a73e8;
-  --drk-hover-color: #f9f9f9;
-  --drk-h-tag-color-me: #5580da;
-  --about: #cbdac6ff;
-  --btn-color:#55c2da;
-  --btn-social:#69d8f1;
-  --btn-email-color:#51bed6;
-  --box-shdw: #808080cc;
-  --social: #f9f7f7;
-  --drk-main-color:#2d333b;
-  --drk-h-tag-colors:#f8f8c2;
-  --drk-hover-btn: #25251c;
-  --drk-social: #0c0c0c;
-  --drk-three-btns: #6785a7;
-  --drk-social-btns: #687789;
 
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/playfair-display-v36-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    padding: 20px;
+    --main-color: #fff --link-box-colors: #1a73e8;
+    --text-colors: #222;
+    --h-colors: #a2513f;
+    --hover-text-color: blue;
+    --hover-color: #1a73e8;
+    --drk-hover-color: #f9f9f9;
+    --drk-h-tag-color-me: #5580da;
+    --about: #cbdac6ff;
+    --btn-color: #55c2da;
+    --btn-social: #69d8f1;
+    --btn-email-color: #51bed6;
+    --box-shdw: #808080cc;
+    --social: #f9f7f7;
+    --drk-main-color: #2d333b;
+    --drk-h-tag-colors: #f8f8c2;
+    --drk-hover-btn: #25251c;
+    --drk-social: #0c0c0c;
+    --drk-three-btns: #6785a7;
+    --drk-social-btns: #687789;
 }
 
 html, main, body {
-  height: 100%;
-  background-color: var(--main-color);
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
+    height: 100%;
+    background-color: var(--main-color);
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 .center-elements {
-  text-align: center;
-  display: grid;
-}
-
-.phone{ 
-    font-family: 'Manrope', sans-serif;
-    font-size: 22px;
+    text-align: center;
+    display: grid;
 }
 
 a {
-   font-family: 'Manrope', sans-serif;
-   text-decoration: none;
-   padding: 10px;
-   font-size: 22px;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
 }
 
 h1 {
-  font-size: 48px;
-  color: var(--h-colors);
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: -10px;
+    font-size: 48px;
+    color: var(--h-colors);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: var(--h-colors);
-  font-family: 'Manrope', sans-serif;
-  text-align: center;
-
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--h-colors);
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
 }
 
-
 h3 {
-  font-size: 20px;
-  margin: 10px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .responsive {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0px 10px  5px rgba(29, 29, 29, 0.6);
-
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px rgba(29, 29, 29, 0.6);
 }
 
 #vini-gora-logo {
-  width: 100px;
-  border-radius: 90%;
+    width: 100px;
+    border-radius: 90%;
 }
 
 i {
-  font-size: 24px;
+    font-size: 24px;
 }
 
+ .icon i {
+  font-size: 30px;
+ }
+
 #topBtn {
-  font-family: 'Manrope', sans-serif;
-  display: none;
-  position: fixed;
-  font-size: 36px;
-  bottom: 20px;
-  right: 10px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: var(--text-colors);
-color: var(--drk-hover-color);
-  opacity: 90%;
-  cursor: pointer;
-  padding-top: 5px;
-  padding-right: 18px;
-  padding-left: 20px;
-  padding-bottom: 5px;
-  border-radius: 9px;
+    font-family: 'Manrope', sans-serif;
+    display: none;
+    position: fixed;
+    font-size: 36px;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--text-colors);
+    color: var(--drk-hover-color);
+    opacity: 90%;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-right: 18px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-radius: 9px;
 }
 
 .btn {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600px;
-  font-size: 22px;
-  background-color: var(--btn-color);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--text-colors);
-  text-decoration: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600px;
+    font-size: 22px;
+    background-color: var(--btn-color);
+    border-radius: 40px;
+    padding: 20px;
+    color: var(--text-colors);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .btn-social {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-size: 22px;
-  background-color: var(--btn-social);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--text-colors);
-  text-decoration: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    background-color: var(--btn-social);
+    border-radius: 40px;
+    padding: 20px;
+    color: var(--text-colors);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .btn-email {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-size: 22px;
-  background-color: var(--btn-email-color);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--text-colors);
-  text-decoration: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    background-color: var(--btn-email-color);
+    border-radius: 40px;
+    padding: 20px;
+    color: var(--text-colors);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.i:hover {
+    color: var(--hover-color);
 }
 
 .btn:hover {
-  background-color: var(--hover-color);
-  text-decoration: none;
-color: var(--drk-hover-color);
+    background-color: var(--hover-color);
+    text-decoration: none;
+    color: var(--drk-hover-color);
 }
 
 .btn-social:hover {
-background-color: var(--hover-color);
-  text-decoration: none;
-color: var(--drk-hover-color);
+    background-color: var(--hover-color);
+    text-decoration: none;
+    color: var(--drk-hover-color);
 }
 
 .btn-first:hover {
-  background-color: var(--drk-h-tag-colors);
-  text-decoration: none;
-color: var(--drk-hover-color);
+    background-color: var(--drk-h-tag-colors);
+    text-decoration: none;
+    color: var(--drk-hover-color);
 }
 
 .me-p {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  text-align: justify;
-  color: var(--text-colors);
-  line-height: 1.5;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    color: var(--text-colors);
+    line-height: 1.5;
 }
 
 .myaccordion label {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  background: var(--about);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--text-colors);
-  text-decoration: none;
-  margin-top: 35px;
-  text-align: center;
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    background: var(--about);
+    border-radius: 40px;
+    padding: 20px;
+    color: var(--text-colors);
+    text-decoration: none;
+    margin-top: 35px;
+    text-align: center;
 }
 
 .myaccordion label:hover {
-  background-color: #1a73e8;
-color: var(--drk-hover-color);
+    background-color: #1a73e8;
+    color: var(--drk-hover-color);
 }
 
 .myaccordion input:checked+label+.content {
-  display: block;
-  -moz-animation: fadeIn 0.5s ease-out;
-  -o-animation: fadeIn 0.5s ease-out;
-  animation: fadeIn 0.5s ease-out;
+    display: block;
+    -moz-animation: fadeIn 0.5s ease-out;
+    -o-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
 }
 
 .hidecontent {
-  display: none;
+    display: none;
 }
 
 .content {
-  background: var(--creme-color);
-  padding: 10px 25px;
-  margin: -1 0 0 0;
+    background: var(--creme-color);
+    padding: 10px 25px;
+    margin: -1 0 0 0;
 }
 
 .mygallery label {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  background: var(--btn-email-color);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--text-colors);
-  text-decoration: none;
-  margin-top: 35px;
-  text-align: center;
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    background: var(--btn-email-color);
+    border-radius: 40px;
+    padding: 20px;
+    color: var(--text-colors);
+    text-decoration: none;
+    margin-top: 35px;
+    text-align: center;
 }
 
 .mygallery label:hover {
-  background-color: #1a73e8;
-  color: var(--drk-hover-color);
+    background-color: #1a73e8;
+    color: var(--drk-hover-color);
 }
 
 .mygallery input:checked+label+.content {
-  display: block;
-  -moz-animation: fadeIn 0.5s ease-out;
-  -o-animation: fadeIn 0.5s ease-out;
-  animation: fadeIn 0.5s ease-out;
+    display: block;
+    -moz-animation: fadeIn 0.5s ease-out;
+    -o-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
 }
 
 .mycontact label {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  background: var(--btn-email-color);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--text-colors);
-  text-decoration: none;
-  margin-top: 35px;
-  text-align: center;
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    background: var(--btn-email-color);
+    border-radius: 40px;
+    padding: 20px;
+    color: var(--text-colors);
+    text-decoration: none;
+    margin-top: 35px;
+    text-align: center;
 }
 
 .mycontact label:hover {
-  background-color: #1a73e8;
-  color: var(--drk-hover-color);
+    background-color: #1a73e8;
+    color: var(--drk-hover-color);
 }
 
 .mycontact input:checked+label+.content {
-  display: block;
-  -moz-animation: fadeIn 0.5s ease-out;
-  -o-animation: fadeIn 0.5s ease-out;
-  animation: fadeIn 0.5s ease-out;
+    display: block;
+    -moz-animation: fadeIn 0.5s ease-out;
+    -o-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
 }
-
 
 .video-container {
     overflow: hidden;
     position: relative;
-    width:100%;
-  margin-bottom: -10px;
+    width: 100%;
+    margin-bottom: -10px;
 }
 
 .video-container::after {
     padding-top: 56.25%;
     display: block;
     content: '';
-  margin-bottom: -10px;
+    margin-bottom: -10px;
 }
 
 .video-container iframe {
@@ -306,151 +310,131 @@ color: var(--drk-hover-color);
     left: 0;
     width: 100%;
     height: 100%;
-   border-radius: 24px !important;
-
+    border-radius: 24px !important;
 }
 
 .extra-space {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .img-space {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .first-img-space {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .social {
-  background-color: var(--social);
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  border-radius: 40px;
-  margin-bottom: 10px;
-  margin-top: 30px;
+    background-color: var(--social);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
-@media screen and (prefers-color-scheme: dark) { 
+@media screen and (prefers-color-scheme: dark) {
     html, main, body {
-    height: 100%;
-    background-color: var(--drk-main-color);
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-  }
+        height: 100%;
+        background-color: var(--drk-main-color);
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+    }
+    .social {
+        background-color: var(--drk-social);
+    }
+    h1 {
+        color: var(--drk-h-tag-colors);
+    }
+    h2 {
+        color: var(--drk-hover-color);
+    }
+    .btn {
+        background-color: var(--drk-social-btns);
+        text-decoration: none;
+        color: var(--text-colors);
+    }
+    .btn-social {
+        background-color: var(--drk-social-btns);
+        color: var(--drk-hover-color);
+    }
+    .btn-social:hover {
+        background-color: var(--drk-hover-btn);
+        color: var(--drk-h-tag-colors);
+        border: solid 2px var(--drk-h-tag-colors);
+    }
+    .btn:hover {
+        background-color: var(--drk-hover-btn);
+        color: var(--drk-h-tag-colors);
+        border: solid 2px var(--drk-h-tag-colors);
+    }
+    .me-p {
+        color: var(--drk-hover-color);
+    }
+    .myaccordion label:hover {
+        background-color: var(--drk-hover-btn);
+        color: var(--drk-h-tag-colors);
+        border: solid 2px var(--drk-h-tag-colors);
+    }
+    .mygallery label:hover {
+        background-color: var(--drk-hover-btn);
+        color: var(--drk-h-tag-colors);
+        border: solid 2px var(--drk-h-tag-colors);
+    }
+    .mycontact label:hover {
+        background-color: var(--drk-hover-btn);
+        color: var(--drk-h-tag-colors);
+        border: solid 2px var(--drk-h-tag-colors);
+    }
+    .myaccordion label {
+        display: block;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        background-color: var(--drk-three-btns);
+        border-radius: 40px;
+        padding: 20px;
+        color: var(--drk-hover-color);
+        text-decoration: none;
+        margin-top: 35px;
+        text-align: center;
+    }
+    .mygallery label {
+        display: block;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        background-color: var(--drk-three-btns);
+        border-radius: 40px;
+        padding: 20px;
+        color: var(--drk-hover-color);
+        text-decoration: none;
+        margin-top: 35px;
+        text-align: center;
+    }
+    .mycontact label {
+        display: block;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        background-color: var(--drk-three-btns);
+        border-radius: 40px;
+        padding: 20px;
+        color: var(--drk-hover-color);
+        text-decoration: none;
+        margin-top: 35px;
+        text-align: center;
+    }
 
-  .social {
-  background-color: var(--drk-social);
-}
+    a {
+        color: var(--drk-h-tag-colors);
+    }
 
-  h1 {
-    color: var(--drk-h-tag-colors);
-  }
-
-  h2 {
-  color: var(--drk-hover-color);
-  }
-
-.btn {
-  background-color: var(--drk-social-btns);
-  text-decoration: none;
-  color: var(--text-colors);
-}
-
-.btn-social {
-    background-color: var(--drk-social-btns);
-    color: var(--drk-hover-color);
-}
-
-
-.btn-social:hover {
-    background-color: var(--drk-hover-btn);
-    border: solid 2px var(--drk-h-tag-colors);
-}
-
-  
-.btn:hover {
-    background-color: var(--drk-hover-btn);
-    border: solid 2px var(--drk-h-tag-colors);
-}
-
-.me-p {
-color: var(--drk-hover-color);
-}
-
-.myaccordion label:hover {
-  background-color: var(--drk-hover-btn);
-  color: var(--drk-hover-color);
-  border: solid 2px var(--hover-text-color);
-}
-
-.mygallery label:hover {
-  background-color: var(--drk-hover-btn);
-  color: var(--drk-hover-color);
-  border: solid 2px var(--hover-text-color);
-}
-.mycontact label:hover {
-  background-color: var(--drk-hover-btn);
-  color: var(--drk-hover-color);
-  border: solid 2px var(--hover-text-color);
-}
-
-.myaccordion label {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  background-color: var(--drk-three-btns);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--drk-hover-color);
-  text-decoration: none;
-  margin-top: 35px;
-  text-align: center;
-}
-
-.mygallery label {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  background-color: var(--drk-three-btns);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--drk-hover-color);
-  text-decoration: none;
-  margin-top: 35px;
-  text-align: center;
-}
-
-.mycontact label {
-  display: block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  background-color: var(--drk-three-btns);
-  border-radius: 40px;
-  padding: 20px;
-  color: var(--drk-hover-color);
-  text-decoration: none;
-  margin-top: 35px;
-  text-align: center;
-}
-
-a {
+ .icon i {
   color: var(--drk-h-tag-colors);
+ }
 }
-
-.phone{ 
-    color: var(--drk-h-tag-colors);
-}
-
-
-}
-
-
-
-
