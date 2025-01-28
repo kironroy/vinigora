@@ -1,26 +1,23 @@
 'use strict';
 
-const goToTopButton = document.getElementById('topBtn');
+// Get the button
+let mybutton = document.getElementById('backToTopBtn');
 
-window.onscroll = () => scrollFunction();
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
 
-const scrollFunction = () =>
-  document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
-    ? (goToTopButton.style.display = 'block')
-    : (goToTopButton.style.display = 'none');
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = 'block';
+  } else {
+    mybutton.style.display = 'none';
+  }
+}
 
+// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-const footerDate = new Date().toLocaleDateString('en-us', {
-  weekday: 'long',
-  year: 'numeric',
-  month: 'short',
-  day: 'numeric',
-});
-
-document.getElementById('footer-date').innerHTML = footerDate;
-
-topFunction();
