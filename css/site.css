@@ -145,6 +145,8 @@ i {
     text-align: center;
 }
 
+
+
 .btn-email {
     display: block;
     font-family: 'Manrope', sans-serif;
@@ -204,6 +206,20 @@ i {
     text-align: center;
 }
 
+.myaccordion2 label {
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    background: var(--btn-color);
+    border-radius: 40px;
+    padding: 20px;
+    color: var(--text-colors);
+    text-decoration: none;
+    margin-top: 35px;
+    text-align: center;
+}
+
 .myaccordion label:hover {
     background-color: #1a73e8;
     color: var(--drk-hover-color);
@@ -215,6 +231,14 @@ i {
     -o-animation: fadeIn 0.5s ease-out;
     animation: fadeIn 0.5s ease-out;
 }
+
+.myaccordion2 input:checked+label+.content {
+    display: block;
+    -moz-animation: fadeIn 0.5s ease-out;
+    -o-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+}
+
 
 .hidecontent {
     display: none;
