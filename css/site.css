@@ -8,7 +8,7 @@
 
 :root {
   padding: 20px;
-  --main-color: #fcfcfc;
+  --main-color: #eee;
   --link-box-colors: #1a73e8;
   --text-colors: #222;
   --h-text-colors: #2f2f2f;
@@ -119,7 +119,7 @@ i {
 #backToTopBtn {
   display: none;
   font-family: 'Manrope', sans-serif;
-  opacity: 80%;
+  opacity: 95%;
   font-weight: 700;
   position: fixed;
   bottom: 20px;
@@ -220,10 +220,10 @@ i {
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
   font-size: 22px;
-  background: var(--about);
+  background: var(--hover-color);
   border-radius: 12px;
   padding: 20px;
-  color: var(--text-colors);
+  color: var(--social-btns);
   text-decoration: none;
   margin-top: 35px;
   text-align: center;
@@ -244,8 +244,8 @@ i {
 }
 
 .myaccordion label:hover {
-  background-color: #1a73e8;
-  color: var(--drk-hover-color);
+  background-color: var(--about);
+  color: var(--text-colors);
 }
 
 .myaccordion input:checked + label + .content {
