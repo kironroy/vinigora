@@ -78,8 +78,8 @@ h3 {
 .responsive {
   width: 100%;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0px 10px 5px rgba(29, 29, 29, 0.6);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: -20px;
 }
 
 #vini-gora-logo {
@@ -227,6 +227,7 @@ i {
   text-decoration: none;
   margin-top: 35px;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .myaccordion2 label {
@@ -241,6 +242,7 @@ i {
   text-decoration: none;
   margin-top: 35px;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .myaccordion label:hover {
@@ -288,6 +290,7 @@ i {
   text-decoration: none;
   margin-top: 35px;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .mygallery label:hover {
