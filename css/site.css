@@ -262,6 +262,11 @@ i {
   animation: fadeIn 0.5s ease-out;
 }
 
+.myaccordion2 label:hover {
+  background-color: var(--hover-color);
+  color: var(--drk-hover-color);
+}
+
 .hidecontent {
   display: none;
 }
@@ -286,7 +291,7 @@ i {
 }
 
 .mygallery label:hover {
-  background-color: #1a73e8;
+  background-color: var(--hover-color);
   color: var(--drk-hover-color);
 }
 
