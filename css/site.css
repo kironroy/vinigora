@@ -208,11 +208,10 @@ i {
 }
 
 .me-p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-indent: 2em;
-  letter-spacing: 0.05em;
-  font-size: 18px;
-  text-align: left;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: justify;
   color: var(--text-colors);
   line-height: 1.5;
 }
