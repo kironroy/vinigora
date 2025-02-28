@@ -133,6 +133,7 @@ i {
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #backToTopBtn:hover {
@@ -207,10 +208,11 @@ i {
 }
 
 .me-p {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-indent: 2em;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  text-align: left;
   color: var(--text-colors);
   line-height: 1.5;
 }
@@ -274,7 +276,6 @@ i {
 }
 
 .content {
-  background: var(--creme-color);
   padding: 10px 25px;
 }
 
@@ -303,6 +304,14 @@ i {
   -moz-animation: fadeIn 0.5s ease-out;
   -o-animation: fadeIn 0.5s ease-out;
   animation: fadeIn 0.5s ease-out;
+}
+
+.description {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .mycontact label {
@@ -384,6 +393,9 @@ i {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+  }
+  .description {
+    background-color: var(--drk-social-btns);
   }
   .social {
     background-color: var(--drk-social);
